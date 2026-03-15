@@ -29,6 +29,6 @@ jobs:
         env:
           # GitHub Secrets からWebhook URLを読み込む
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          AREA_CODE: 080000
+          AREA_CODE: "080000"
           AREA_NAME: 北部
         run: python main.py
