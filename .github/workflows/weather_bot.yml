@@ -3,7 +3,7 @@ name: Weather Slack Bot
 # 実行トリガーの設定
 on:
   schedule:
-    # 毎日日本時間の朝8:00 (UTC 23:00) に実行
+    # 毎日日本時間の19:00 (UTC 10:00) に実行
     - cron: '0 10 * * *'
   # GitHubの画面から手動でも実行できるようにする
   workflow_dispatch:
