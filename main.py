@@ -8,7 +8,7 @@ load_dotenv()
 
 # 設定
 AREA_CODE = os.environ.get("AREA_CODE", "080000") # 茨城県
-AREA_NAME = os.environ.get("AREA_NAME", "北部")   # 水戸市を含む北部
+AREA_NAME = os.environ.get("AREA_NAME", "中央")   # 水戸市を含む中央
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
 
 def get_weather_forecast():
